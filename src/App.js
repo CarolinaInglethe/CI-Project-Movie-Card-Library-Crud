@@ -9,9 +9,9 @@ import NotFound from './pages/NotFound';
 
 function App() {
   return (
+    <Router basename={ process.env.PUBLIC_URL }>
+      <div className="App">
 
-    <div className="App">
-      <Router basename={ process.env.PUBLIC_URL }>
         <div>Movie Card Library CRUD</div>
         <Switch>
           <Route exact path="/movies/new" component={ NewMovie } />
@@ -24,9 +24,9 @@ function App() {
           <Route exact path="/" component={ MovieList } />
           <Route exact path="*" component={ NotFound } />
         </Switch>
-      </Router>
-    </div>
 
+      </div>
+    </Router>
   );
 }
 
