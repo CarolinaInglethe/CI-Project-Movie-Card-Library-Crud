@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import MovieList from './pages/MovieList';
 import MovieDetails from './pages/MovieDetails';
 import NewMovie from './pages/NewMovie';
@@ -11,7 +11,7 @@ function App() {
   return (
 
     <div className="App">
-      <BrowserRouter>
+      <Router basename={ process.env.PUBLIC_URL }>
         <div>Movie Card Library CRUD</div>
         <Switch>
           <Route exact path="/movies/new" component={ NewMovie } />
@@ -24,7 +24,7 @@ function App() {
           <Route exact path="/" component={ MovieList } />
           <Route exact path="*" component={ NotFound } />
         </Switch>
-      </BrowserRouter>
+      </Router>
     </div>
 
   );
