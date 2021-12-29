@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(31, 30, 30, 0.712);
+  background-color: rgba(22, 22, 22, 0.712);
   box-sizing: border-box;
 }
 
@@ -8,7 +8,6 @@ body {
 }
 
 .container-pages {
-  background-color: rgba(245, 223, 223, 0.904);
   border: 2px solid rgba(0, 0, 0, 0.185);
   border-radius: 3px;
   margin: 50px;
@@ -16,10 +15,42 @@ body {
 }
 
 .container-card {
+  background-color: rgba(255, 255, 255, 0.657);
   border: 1px solid rgba(0, 0, 0, 0.315);
   border-radius: 10px;
-  margin: 25px;
-  padding: 20px 50px;
+  margin: 50px 25%;
+  padding: 30px 50px;
+}
+
+.movie-details {
+  background-color: rgba(255, 255, 255, 0.438);
+  border: 1px solid rgba(0, 0, 0, 0.315);
+  border-radius: 10px;
+  margin: 50px 10%;
+  padding: 30px 50px;
+}
+
+.form-movie {
+  margin: 20px;
+  padding: 50px;
+}
+
+.form-movie label {
+  font-size: large;
+  margin: 5px;
+  padding: 3px;
+}
+
+.form-movie input {
+  font-size: large;
+  margin: 10px;
+  padding: 4px;
+}
+
+.form-movie button {
+  font-size: large;
+  margin: 40px;
+  padding: 4px;
 }
 
 .route-link {
@@ -36,10 +67,3 @@ body {
   background-color: rgba(17, 17, 17, 0.582);
 }
 
-.form-movie {
-  padding: 50px;
-}
-
-input {
-  margin: 5px;
-}

@@ -8,8 +8,8 @@ class MovieCard extends React.Component {
     const movieId = `/movies/${movie.id}`;
     return (
       <div data-testid="movie-card" className="container-card">
-        <h2>Movie Card</h2>
-        <p>{ movie.title }</p>
+        <p>Movie Card</p>
+        <h3>{ movie.title }</h3>
         <p>{ movie.storyline }</p>
         <Link to={ movieId } className="route-link">VER DETALHES</Link>
       </div>

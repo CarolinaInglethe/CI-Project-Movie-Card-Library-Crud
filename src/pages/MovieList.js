@@ -38,11 +38,11 @@ class MovieList extends Component {
     return (
       <div data-testid="movie-list" className="container-pages">
 
+        <Link to="/movies/new" className="route-link">ADICIONAR CARTÃO</Link>
+
         {loading ? <Loading className="loading" />
           : movies.map((movie) => <MovieCard key={ movie.title } movie={ movie } />)}
 
-        <br />
-        <Link to="/movies/new" className="route-link">ADICIONAR CARTÃO</Link>
       </div>
     );
   }

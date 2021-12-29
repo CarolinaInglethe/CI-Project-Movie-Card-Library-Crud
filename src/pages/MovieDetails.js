@@ -50,7 +50,7 @@ class MovieDetails extends Component {
     const movieId = `/movies/${id}/edit`;
 
     return (
-      <div data-testid="movie-details" className="container-pages">
+      <div data-testid="movie-details" className="movie-details">
 
         {
           loading ? <Loading className="loading" />
