@@ -1,70 +1,73 @@
-body {
-  background-color: rgba(22, 22, 22, 0.712);
-  box-sizing: border-box;
-}
+@media screen and ( min-width : 750px ) {
 
-.App {
-  text-align: center;
-}
+  body {
+    background-color: rgba(22, 22, 22, 0.712);
+    box-sizing: border-box;
+  }
 
-.container-pages {
-  border: 2px solid rgba(0, 0, 0, 0.185);
-  border-radius: 3px;
-  margin: 50px;
-  padding: 20px;
-}
+  .App {
+    text-align: center;
+  }
 
-.container-card {
-  background-color: rgba(255, 255, 255, 0.657);
-  border: 1px solid rgba(0, 0, 0, 0.315);
-  border-radius: 10px;
-  margin: 50px 25%;
-  padding: 30px 50px;
-}
+  .container-pages {
+    border: 2px solid rgba(0, 0, 0, 0.185);
+    border-radius: 3px;
+    margin: 50px;
+    padding: 20px;
+  }
 
-.movie-details {
-  background-color: rgba(255, 255, 255, 0.438);
-  border: 1px solid rgba(0, 0, 0, 0.315);
-  border-radius: 10px;
-  margin: 50px 10%;
-  padding: 30px 50px;
-}
+  .container-card {
+    background-color: rgba(255, 255, 255, 0.657);
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: 10px;
+    margin: 50px 25%;
+    padding: 30px 50px;
+  }
 
-.form-movie {
-  background-color: rgba(255, 255, 255, 0.438);
-  margin: 20px;
-  padding: 50px;
-}
+  .movie-details {
+    background-color: rgba(255, 255, 255, 0.438);
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: 10px;
+    margin: 50px 10%;
+    padding: 30px 50px;
+  }
 
-.form-movie label {
-  font-size: large;
-  margin: 5px;
-  padding: 3px;
-}
+  .form-movie {
+    background-color: rgba(255, 255, 255, 0.438);
+    margin: 20px;
+    padding: 50px;
+  }
 
-.form-movie input {
-  font-size: large;
-  margin: 10px;
-  padding: 4px;
-}
+  .form-movie label {
+    font-size: large;
+    margin: 5px;
+    padding: 3px;
+  }
 
-.form-movie button {
-  font-size: large;
-  margin: 40px;
-  padding: 4px;
-}
+  .form-movie input {
+    font-size: large;
+    margin: 10px;
+    padding: 4px;
+  }
 
-.route-link {
-  background-color: rgba(17, 17, 17, 0.76);
-  border: 1px solid rgba(167, 51, 51, 0.212);
-  border-radius: 5px;
-  color: white;
-  margin: 5px;
-  padding: 6px;
-  text-decoration: none;
-}
+  .form-movie button {
+    font-size: large;
+    margin: 40px;
+    padding: 4px;
+  }
 
-.route-link:hover {
-  background-color: rgba(17, 17, 17, 0.582);
-}
+  .route-link {
+    background-color: rgba(17, 17, 17, 0.76);
+    border: 1px solid rgba(167, 51, 51, 0.212);
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    padding: 6px;
+    text-decoration: none;
+  }
 
+  .route-link:hover {
+    background-color: rgba(17, 17, 17, 0.582);
+  }
+
+}
