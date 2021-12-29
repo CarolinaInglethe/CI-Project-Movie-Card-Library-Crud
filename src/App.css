@@ -118,15 +118,15 @@
   }
 
   .form-movie label {
-    font-size: large;
-    margin: 5px;
-    padding: 3px;
+    font-size: small;
+    margin: 2px;
+    padding: 2px;
   }
 
   .form-movie input {
-    font-size: large;
+    font-size: medium;
     margin: 10px;
-    padding: 4px;
+    padding: 2px;
   }
 
   .form-movie button {
