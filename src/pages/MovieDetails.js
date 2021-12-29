@@ -56,7 +56,11 @@ class MovieDetails extends Component {
           loading ? <Loading className="loading" />
             : (
               <div>
-                <img alt="Movie Cover" src={ `../${imagePath}` } />
+                <img
+                  alt="Movie Cover"
+                  src={ `../${imagePath}` }
+                  className="image-movie"
+                />
                 <p>{ `Title: ${title}` }</p>
                 <p>{ `Subtitle: ${subtitle}` }</p>
                 <p>{ `Storyline: ${storyline}` }</p>
