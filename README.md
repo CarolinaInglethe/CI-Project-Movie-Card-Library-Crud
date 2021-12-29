@@ -1,9 +1,5 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe
-
 # Boas vindas ao repositório do projeto de Movie Cards CRUD!
-
+(Layout - tela pequena e tela grande )
 
 ### LINK :  https://carolinainglethe.github.io/ci-project-movie-card-library-crud/
 
